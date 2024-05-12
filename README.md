@@ -8,7 +8,8 @@ FIRE DETECTION:
 Images were captured using 2 cameras- Lepton and MLX.
 The thermal images obtained from thermal camera using the electronic eye designed are used to model a machine learning based fire detection system.
 Around 600 thermal images are collected from each variant with 300 images having fire and 300 images without fire.
-These  images were used as training and testing samples.
+These  images were used as training validation and testing samples.
+We were able to obtain a maximum accuracy of 100% using just 12 images for training. This is because of the ability of the generator to generate fake samples for training the model, which are almost same as real images, thus increasing the number of samples for training internally. 
 
 It was observed during data collection that the thermal image from MLX90640 camera displays the temperature at a particular pixel using a thermal map and the thermal image from Lepton camera maps the pixel with highest temperature in the entire scene to red color and pixel with least temperature to blue color and it is a RGB image. 
 
@@ -20,7 +21,7 @@ Lepton Camera images
 <img width="463" alt="image" src="https://github.com/Pranav01rb/GAN/assets/57988947/cf20a23a-dd49-456f-a728-4cb25aaf83e8">
 
 # Results
-COMPUTATION TIME FOR GAN BASED FIRE DETECTION
+Table 1: COMPUTATION TIME FOR GAN BASED FIRE DETECTION
 | Description     | #Samples | #Epochs | MLX    | Lepton |
 |-----------------|----------|---------|--------|--------|
 | Training Time   | 12       | 200     | 15.96s | 15.70s |
@@ -28,3 +29,6 @@ COMPUTATION TIME FOR GAN BASED FIRE DETECTION
 | Training Time   | 200      | 200     | 24.29s | 24.35s |
 | Training Time   | 200      | 500     | 61.75s | 58.18s |
 | Prediction Time | 1        | -       | 82.2ms | 76.2ms |
+
+# Reference
+Sreenivas B, “Semi-supervised GAN”, https://github.com/bnsreenu/python_for_microscopists/tree/master/259_semi_supervised_GAN
