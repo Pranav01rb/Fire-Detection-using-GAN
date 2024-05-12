@@ -29,6 +29,14 @@ Table 1: COMPUTATION TIME FOR GAN BASED FIRE DETECTION
 | Training Time   | 200      | 200     | 24.29s | 24.35s |
 | Training Time   | 200      | 500     | 61.75s | 58.18s |
 | Prediction Time | 1        | -       | 82.2ms | 76.2ms |
-
+# How to Cite
+@INPROCEEDINGS{9993503,
+  author={Monish Moger, B and Abhishek, H and Pranav, B and Roy, Pubali and Bharadwaj, Priya and Gupta, Akash and Sharma, Payal and Manikandan, J},
+  booktitle={2022 IEEE International Conference on Aerospace Electronics and Remote Sensing Technology (ICARES)}, 
+  title={Design and Evaluation of an Electronic Eye for Fire Detection in Human Space Capsule}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-7}
 # Reference
 Bhattiprolu, S. (2023). python_for_microscopists. GitHub, “Semi-supervised GAN”, https://github.com/bnsreenu/python_for_microscopists/tree/master/259_semi_supervised_GAN
