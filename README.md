@@ -31,4 +31,4 @@ Table 1: COMPUTATION TIME FOR GAN BASED FIRE DETECTION
 | Prediction Time | 1        | -       | 82.2ms | 76.2ms |
 
 # Reference
-Sreenivas B, “Semi-supervised GAN”, https://github.com/bnsreenu/python_for_microscopists/tree/master/259_semi_supervised_GAN
+Bhattiprolu, S. (2023). python_for_microscopists. GitHub, “Semi-supervised GAN”, https://github.com/bnsreenu/python_for_microscopists/tree/master/259_semi_supervised_GAN
