@@ -21,11 +21,11 @@ During the data collection phase, notable differences in image representation we
 <img width="400" alt="image" src="https://github.com/Pranav01rb/GAN/assets/57988947/39859153-9566-4822-8475-90010d452f70">
 <img width="400" alt="image" src="https://github.com/Pranav01rb/GAN/assets/57988947/c237b1a9-e8e8-40eb-b301-62d5d7b3b482">
 
-Caption: MLX Camera Image
+Fig 1: MLX Camera Image
 
 <img width="500" alt="image" src="https://github.com/Pranav01rb/GAN/assets/57988947/cf20a23a-dd49-456f-a728-4cb25aaf83e8">
 
-Caption: Lepton Camera Image
+Fig 2: Lepton Camera Image
 # Results
 One of the key results of the study was the machine learning model’s ability to reach a maximum recognition accuracy of 100%. This high level of accuracy was achieved using only 12 training images, showcasing the effectiveness of the Generative Adversarial Networks (GANs) used in the project. The GAN’s generator played a crucial role in enhancing the training dataset by generating synthetic images that realistically simulate actual fire scenarios. This capability allowed for comprehensive training with a limited set of actual images.
 
