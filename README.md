@@ -5,6 +5,7 @@ The code is modified to make GAN behave as a classifier.
 Thus the GAN model is used as a two class classifier here to distinguish between the class labels: fire and no-fire.
 
 The project was a part of a ISRO Project at PES University, Banaglore, India.
+
 Paper: https://ieeexplore.ieee.org/document/9993503
 
 FIRE DETECTION:
