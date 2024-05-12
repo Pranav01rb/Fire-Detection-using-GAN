@@ -19,3 +19,12 @@ MLX Camera images
 Lepton Camera images
 <img width="463" alt="image" src="https://github.com/Pranav01rb/GAN/assets/57988947/cf20a23a-dd49-456f-a728-4cb25aaf83e8">
 
+# Results
+COMPUTATION TIME FOR GAN BASED FIRE DETECTION
+| Description     | #Samples | #Epochs | MLX    | Lepton |
+|-----------------|----------|---------|--------|--------|
+| Training Time   | 12       | 200     | 15.96s | 15.70s |
+| Training Time   | 12       | 500     | 38.22s | 38.26s |
+| Training Time   | 200      | 200     | 24.29s | 24.35s |
+| Training Time   | 200      | 500     | 61.75s | 58.18s |
+| Prediction Time | 1        | -       | 82.2ms | 76.2ms |
