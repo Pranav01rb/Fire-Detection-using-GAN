@@ -4,6 +4,9 @@ Generative Adversarial Networks (GAN) model designed for classification - Semi-S
 The code is modified to make GAN behave as a classifier.
 Thus the GAN model is used as a two class classifier here to distinguish between the class labels: fire and no-fire.
 
+The project was a part of a ISRO Project at PES University, Banaglore, India.
+Paper: https://ieeexplore.ieee.org/document/9993503
+
 FIRE DETECTION:
 Images were captured using 2 cameras- Lepton and MLX.
 The thermal images obtained from thermal camera using the electronic eye designed are used to model a machine learning based fire detection system.
